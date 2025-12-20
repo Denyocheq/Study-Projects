@@ -4,6 +4,15 @@ In each commit, I'll indicate the technologies I used and what I've learned sinc
 
 ________________________________________________________________________________________________________________________
 
-### Folder **freeCodeCamp**
-The first folder I created is **freeCodeCamp**, a free resource for learning programming, located at *freecodecamp.org*. 
-Here, I plan to learn the basics of markup and basic JavaScript.
+## Structure
+
+```Markdown
+Study-Projects/
+│  
+├── 📁 freeCodeCamp/                                         # Basics of page layout and basic JavaScript
+│   └── 📁 Responsive Web Design Certification/               # Page layout (HTML + CSS)
+│       └── projects                                            # Numbered folder structure
+│  
+└── README.md                                                # You are reading this file
+```
+
