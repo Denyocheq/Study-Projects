@@ -11,8 +11,13 @@ Study-Projects/
 │  
 ├── 📁 freeCodeCamp/                                         # Basics of page layout and basic JavaScript
 │   └── 📁 Responsive Web Design Certification/               # Page layout (HTML + CSS)
-│       └── projects                                            # Numbered folder structure
+│       ├── 📁 (1) - Recipe Page                               # (https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(1)%20-%20Recipe%20Page/)
+│       ├── 📁 (2) - Travel Agency Page                        # (https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(2)%20-%20Travel%20Agency%20Page/)
+│       ├── 📁 (3) - Christmas Vibes Page                      # (https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(3)%20-%20Christmas%20Vibes%20Page/)
+│       └── 📁 (4) - Alternative rock page                     # (https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(4)%20-%20Alternative%20rock%20page/)
 │  
 └── README.md                                                # You are reading this file
 ```
+
+### 🚀[Open on GitHub pages](https://denyocheq.github.io/Study-Projects/)
 
