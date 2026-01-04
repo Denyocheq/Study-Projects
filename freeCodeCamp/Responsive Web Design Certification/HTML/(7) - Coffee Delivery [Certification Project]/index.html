@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Choose your coffee roast, milk, toppings, and schedule a pick-up time—all in a few clicks.">
+    <title>Coffee Delivery</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1 id="title">Coffee Delivery</h1>
+      <p id="description">We deliver excellent coffee. Want to try something new or savor the aroma of your favorite drink?</p>
+    </header>
+
+    <main>
+      <form id="survey-form" action="#" method="POST">
+        <fieldset>
+          <legend>About You</legend>
+          <label id="name-label" for="name">What is your name?</label><br>
+          <input id="name" type="text" name="name" placeholder="John" required><br><br>
+          <label id="email-label" for="email">Can I have your email?</label><br>
+          <input id="email" type="email" name="email" placeholder="john@email.com" required>
+        </fieldset>
+        
+        <fieldset>
+          <legend>About Coffee</legend>
+          <fieldset>
+            <legend>Syrup</legend>
+            <label><input type="radio" name="syrup" value="Vanilla">Vanilla</label>
+            <label><input type="radio" name="syrup" value="Caramel">Caramel</label>
+            <label><input type="radio" name="syrup" value="Hazelnut">Hazelnut</label>
+            <label><input type="radio" name="syrup" value="Chocolate">Chocolate</label>
+            <label><input type="radio" name="syrup" value="Coconut">Coconut</label>
+            <label><input type="radio" name="syrup" value="no-syrup">No syrup</label>
+            <br><br>
+            <label id="number-label" for="number">How much syrup should I pour for you? (Pumps)</label>
+            
+            <input id="number" type="number" name="amount-of-syrup" min="0" max="10" placeholder="1">
+          </fieldset>
+
+          <fieldset>
+            <legend>Milk</legend>
+            <label for="dropdown">Select Milk</label>
+            <select id="dropdown" name="selected-milk">
+              <option value="Whole">Whole</option>
+              <option value="Skim">Skim</option>
+              <option value="Oat">Oat</option>
+              <option value="Almond">Almond</option>
+              <option value="Soy">Soy</option>
+              <option value="Coconut">Coconut</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Other</legend>
+            <label><input type="checkbox" value="Whip">Whip</label>
+            <label><input type="checkbox" value="Foam">Foam</label>
+            <label><input type="checkbox" value="Drizzle">Drizzle</label>
+            <label><input type="checkbox" value="Cinnamon">Cinnamon</label>
+            <label><input type="checkbox" value="Cocoa">Cocoa</label>
+            <label><input type="checkbox" value="Sprinkles">Sprinkles</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>If you have any other wishes</legend>
+            <textarea rows="4" cols="40" placeholder="Write here..."></textarea>
+          </fieldset>
+        </fieldset>
+
+      <br>
+      <button id="submit" type="submit">Accept my order!</button>
+      </form>
+    </main>
+
+  </body> 
+</html>
+
+<!--Denyocheq-->
