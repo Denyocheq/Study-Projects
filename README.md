@@ -11,11 +11,13 @@ Study-Projects/
 │  
 ├── 📁 freeCodeCamp/                                         # Basics of page layout and basic JavaScript
 │   └── 📁 Responsive Web Design Certification/               # Page layout (HTML + CSS)
-│       ├── 📁 (1) - Recipe Page
-│       ├── 📁 (2) - Travel Agency Page
-│       ├── 📁 (3) - Christmas Vibes Page
-│       ├── 📁 (4) - Alternative rock Page
-│       └── 📁 (5) - Astronomical Event Hub
+│       └── 📁 HTML/
+│           ├── 📁 (1) - Recipe Page
+│           ├── 📁 (2) - Travel Agency Page
+│           ├── 📁 (3) - Christmas Vibes Page
+│           ├── 📁 (4) - Alternative rock Page
+│           ├── 📁 (5) - Astronomical Event Hub
+│           └── 📁 (6) - Book Catalog Table
 │  
 └── README.md                                                # You are reading this file
 ```
@@ -26,9 +28,10 @@ Study-Projects/
 
 | Project | Demo | 
 |--------|------|
-| **(1) - Recipe Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(1)%20-%20Recipe%20Page/) |
-| **(2) - Travel Agency Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(2)%20-%20Travel%20Agency%20Page/) |
-| **(3) - Christmas Vibes Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(3)%20-%20Christmas%20Vibes%20Page/) |
-| **(4) - Alternative rock Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(4)%20-%20Alternative%20rock%20page/) |
-| **(5) - Astronomical Event Hub** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/(5)%20-%20Astronomical%20Event%20Hub/) |
+| **(1) - Recipe Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(1)%20-%20Recipe%20Page/) |
+| **(2) - Travel Agency Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(2)%20-%20Travel%20Agency%20Page/) |
+| **(3) - Christmas Vibes Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(3)%20-%20Christmas%20Vibes%20Page/) |
+| **(4) - Alternative rock Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(4)%20-%20Alternative%20rock%20page/) |
+| **(5) - Astronomical Event Hub** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(5)%20-%20Astronomical%20Event%20Hub/) |
+| **(6) - Book Catalog Table** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(6)%20-%20Book%20Catalog%20Table/) |
 </details>
