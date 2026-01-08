@@ -17,7 +17,8 @@ Study-Projects/
 │           ├── 📁 (3) - Christmas Vibes Page
 │           ├── 📁 (4) - Alternative rock Page
 │           ├── 📁 (5) - Astronomical Event Hub
-│           └── 📁 (6) - Book Catalog Table
+│           ├── 📁 (6) - Book Catalog Table
+│           └── 📁 (7) - Coffee Delivery [Certification Project]
 │  
 └── README.md                                                # You are reading this file
 ```
@@ -34,4 +35,5 @@ Study-Projects/
 | **(4) - Alternative rock Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(4)%20-%20Alternative%20rock%20Page/) |
 | **(5) - Astronomical Event Hub** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(5)%20-%20Astronomical%20Event%20Hub/) |
 | **(6) - Book Catalog Table** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(6)%20-%20Book%20Catalog%20Table/) |
+| **(7) - Coffee Delivery [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(7)%20-%20Coffee%20Delivery%20[Certification%20Project]/) |
 </details>
