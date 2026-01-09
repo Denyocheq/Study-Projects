@@ -18,7 +18,10 @@ Study-Projects/
 │           ├── 📁 (4) - Alternative rock Page
 │           ├── 📁 (5) - Astronomical Event Hub
 │           ├── 📁 (6) - Book Catalog Table
-│           └── 📁 (7) - Coffee Delivery [Certification Project]
+│           ├── 📁 (7) - Coffee Delivery [Certification Project]
+│           ├── 📁 (8) - Checkout Page
+│           ├── 📁 (9) - Movie Review Page
+│           └── 📁 (10) - Multimedia Player
 │  
 └── README.md                                                # You are reading this file
 ```
@@ -36,4 +39,7 @@ Study-Projects/
 | **(5) - Astronomical Event Hub** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(5)%20-%20Astronomical%20Event%20Hub/) |
 | **(6) - Book Catalog Table** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(6)%20-%20Book%20Catalog%20Table/) |
 | **(7) - Coffee Delivery [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(7)%20-%20Coffee%20Delivery%20[Certification%20Project]/) |
+| **(8) - Checkout Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(8)%20-%20Checkout%20Page/) |
+| **(9) - Movie Review Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(9)%20-%20Movie%20Review%20Page/) |
+| **(10) - Multimedia Player** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(10)%20-%20Multimedia%20Player/) |
 </details>
