@@ -1,0 +1,85 @@
+body{
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+.business-card{
+  width: 300px;
+  background-color: #FFF8F0;
+  padding: 20px;
+  margin: 100px auto 0;
+  font-size: 16px;
+  text-align: center;
+  color: #2C2C2C;
+  box-shadow: 10px 10px 5px #00000020;
+}
+
+.profile-image{
+  max-width: 100%;
+}
+
+.business-card, .profile-image{
+  border-radius: 15px;
+}
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  padding: 2px 4px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.full-name, h2{
+  margin-top: 10px;
+}
+
+.full-name{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.designation{
+  margin-top: -3px;
+  font-size: 10px;
+}
+
+.company{
+  margin: 5px 0 20px;
+}
+
+hr{
+  margin: 10px 0;
+}
+
+.contacts{
+  font-size: 14px;
+}
+
+.portfolio-link{
+  font-size: 20px;
+  display: block;
+  width: 100px;
+  margin: 17px auto 10px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #72ccfb;
+  font-style: normal;
+}
+
+.portfolio-link:hover, a:hover{
+  background-color: #a2dfff;
+}
+
+.portfolio-link:active, a:active{
+  opacity: 0.7;
+}
+
+h2{
+  font-size: 20px;
+}
