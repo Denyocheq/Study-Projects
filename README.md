@@ -22,8 +22,13 @@ Study-Projects/
 │       │   ├── 📁 (8) - Checkout Page
 │       │   ├── 📁 (9) - Movie Review Page
 │       │   └── 📁 (10) - Multimedia Player
+│       │
 │       └── 📁 CSS/
 │           └── 📁 (1) - Business Card
+│
+├── 📁 Pet Projects/
+│   └── 📁 Business Card
+│
 │  
 └── README.md                                                # You are reading this file
 ```
@@ -45,4 +50,11 @@ Study-Projects/
 | **HTML** | **(9) - Movie Review Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(9)%20-%20Movie%20Review%20Page/) |
 | **HTML** | **(10) - Multimedia Player** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(10)%20-%20Multimedia%20Player/) |
 | **CSS** | **(1) - Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(1)%20-%20Business%20Card/) |
+</details>
+
+<details>
+<summary>📁 Pet Projects</b></summary>
+| Project | Demo |
+|--------|------|
+| **Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/Pet%20Projects/Business%20Card/) |
 </details>
