@@ -54,7 +54,9 @@ Study-Projects/
 
 <details>
 <summary>📁 Pet Projects</b></summary>
+  
 | Project | Demo |
 |--------|------|
 | **Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/Pet%20Projects/Business%20Card/) |
+| **Something cool will be here soon!** | SOON |
 </details>
