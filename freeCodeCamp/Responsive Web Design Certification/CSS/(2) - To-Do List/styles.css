@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #F3F0F3;
+}
+
+main{
+  width: 90%;
+  max-width: 600px;
+  min-width: 300px;
+  margin: 100px auto 0;
+}
+
+h1{
+  color: #313456;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 10px;
+
+}
+
+ul li{
+  list-style-type: none;
+}
+
+
+.todo-list > li{
+  box-shadow: 0 0 3px  #313456;
+}
+
+input[type='checkbox'] {
+  accent-color: #7C3AED; 
+}
+
+ul > li{
+  background-color: #D2D2DF;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  border-radius: 0px 10px 0 10px;
+  color: #070E10;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+a{
+  padding-left: 20px;
+  text-decoration: none;
+  font-family: serif;
+}
+
+a:link{
+  color: #7C3AED;
+}
+
+a:visited{
+  color: #9e7fd7;
+}
+
+a:focus{
+  outline: 2px solid #7C3AED;
+}
+
+a:hover{
+  color: #5d00ff;
+}
+
+a:active{
+  color: #3a009e;
+}
