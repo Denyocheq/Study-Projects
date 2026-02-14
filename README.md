@@ -26,7 +26,8 @@ Study-Projects/
 │       └── 📁 CSS/
 │           ├── 📁 (1) - Business Card
 │           ├── 📁 (2) - To-Do List
-│           └── 📁 (3) - Blog Post Card
+│           ├── 📁 (3) - Blog Post Card
+│           └── 📁 (4) - Event Flyer Page
 │
 ├── 📁 Pet Projects/
 │   └── 📁 Business Card
@@ -54,6 +55,7 @@ Study-Projects/
 | **CSS** | **(1) - Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(1)%20-%20Business%20Card/) |
 | **CSS** | **(2) - To-Do List** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(2)%20-%20To-Do%20List/) |
 | **CSS** | **(3) - Blog Post Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(3)%20-%20Blog%20Post%20Card/) |
+| **CSS** | **(4) - Event Flyer Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(4)%20-%20Event%20Flyer%20Page/) |
 </details>
 
 <details>
