@@ -25,7 +25,8 @@ Study-Projects/
 │       │
 │       └── 📁 CSS/
 │           ├── 📁 (1) - Business Card
-│           └── 📁 (2) - To-Do List
+│           ├── 📁 (2) - To-Do List
+│           └── 📁 (3) - Blog Post Card
 │
 ├── 📁 Pet Projects/
 │   └── 📁 Business Card
@@ -52,6 +53,7 @@ Study-Projects/
 | **HTML** | **(10) - Multimedia Player** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(10)%20-%20Multimedia%20Player/) |
 | **CSS** | **(1) - Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(1)%20-%20Business%20Card/) |
 | **CSS** | **(2) - To-Do List** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(2)%20-%20To-Do%20List/) |
+| **CSS** | **(3) - Blog Post Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(3)%20-%20Blog%20Post%20Card/) |
 </details>
 
 <details>
