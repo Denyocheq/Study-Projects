@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fill out the application form, we will contact you after review!">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application</h1>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" autocomplete="off" required>
+            <label for="email" >Email:</label>
+            <input type="email" id="email" autocomplete="off" required>
+
+            <label for="position" >Position:</label>
+            <select id="position" required>
+                <option value="" selected disabled>-</option>
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="fullstack">Fullstack Developer</option>
+                <option value="mobile">Mobile Developer (iOS/Android)</option>
+                <option value="data">Data Scientist</option>
+                <option value="pm">Product Manager</option>
+                <option value="security">Cybersecurity Specialist</option>
+                <option value="design">UX/UI Designer</option>
+                <option value="devops">DevOps Engineer</option>
+                <option value="qa">QA Engineer</option>
+            </select>
+
+        <fieldset class="radio-group">
+            <input id="full-time" type="radio" name="availability" checked>
+            <label for="full-time">Full-Time</label>
+    
+            <input id="part-time" type="radio" name="availability">
+            <label for="part-time">Part-Time</label>
+        </fieldset>
+
+
+        <label for="message">A little story about you: </label>
+        <textarea id="message" required cols="30" rows= "5"></textarea>
+        <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!--Denyocheq-->
