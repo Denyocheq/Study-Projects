@@ -29,7 +29,8 @@ Study-Projects/
 │           ├── 📁 (3) - Blog Post Card
 │           ├── 📁 (4) - Event Flyer Page
 │           ├── 📁 (5) - Job Application Form
-│           └── 📁 (6) - Colored Boxes
+│           ├── 📁 (6) - Colored Boxes
+│           └── 📁 (7) - Contact Form
 │
 ├── 📁 Pet Projects/
 │   └── 📁 Business Card
@@ -60,6 +61,7 @@ Study-Projects/
 | **CSS** | **(4) - Event Flyer Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(4)%20-%20Event%20Flyer%20Page/) |
 | **CSS** | **(5) - Job Application Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(5)%20-%20Job%20Application%20Form/) |
 | **CSS** | **(6) - Colored Boxes** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(6)%20-%20Colored%20Boxes/) |
+| **CSS** | **(7) - Contact Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(7)%20-%20Contact%20Form/) |
 </details>
 
 <details>
