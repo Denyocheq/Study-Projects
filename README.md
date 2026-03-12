@@ -31,7 +31,8 @@ Study-Projects/
 │           ├── 📁 (05) - Job Application Form
 │           ├── 📁 (06) - Colored Boxes
 │           ├── 📁 (07) - Contact Form
-│           └── 📁 (08) - Feature Selection
+│           ├── 📁 (08) - Feature Selection
+│           └── 📁 (09) - Confidential Email
 │
 ├── 📁 Pet Projects/
 │   └── 📁 Business Card
@@ -64,6 +65,7 @@ Study-Projects/
 | **CSS** | **(06) - Colored Boxes** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(06)%20-%20Colored%20Boxes/) |
 | **CSS** | **(07) - Contact Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(07)%20-%20Contact%20Form/) |
 | **CSS** | **(08) - Feature Selection** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(08)%20-%20Feature%20Selection/) |
+| **CSS** | **(09) - Confidential Email** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(09)%20-%20Confidential%20Email/) |
 </details>
 
 <details>
