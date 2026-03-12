@@ -12,25 +12,26 @@ Study-Projects/
 ├── 📁 freeCodeCamp/                                         # Basics of page layout and basic JavaScript
 │   └── 📁 Responsive Web Design Certification/               # Page layout (HTML + CSS)
 │       ├── 📁 HTML/
-│       │   ├── 📁 (1) - Recipe Page
-│       │   ├── 📁 (2) - Travel Agency Page
-│       │   ├── 📁 (3) - Christmas Vibes Page
-│       │   ├── 📁 (4) - Alternative rock Page
-│       │   ├── 📁 (5) - Astronomical Event Hub
-│       │   ├── 📁 (6) - Book Catalog Table
-│       │   ├── 📁 (7) - Coffee Delivery [Certification Project]
-│       │   ├── 📁 (8) - Checkout Page
-│       │   ├── 📁 (9) - Movie Review Page
+│       │   ├── 📁 (01) - Recipe Page
+│       │   ├── 📁 (02) - Travel Agency Page
+│       │   ├── 📁 (03) - Christmas Vibes Page
+│       │   ├── 📁 (04) - Alternative rock Page
+│       │   ├── 📁 (05) - Astronomical Event Hub
+│       │   ├── 📁 (06) - Book Catalog Table
+│       │   ├── 📁 (07) - Coffee Delivery [Certification Project]
+│       │   ├── 📁 (08) - Checkout Page
+│       │   ├── 📁 (09) - Movie Review Page
 │       │   └── 📁 (10) - Multimedia Player
 │       │
 │       └── 📁 CSS/
-│           ├── 📁 (1) - Business Card
-│           ├── 📁 (2) - To-Do List
-│           ├── 📁 (3) - Blog Post Card
-│           ├── 📁 (4) - Event Flyer Page
-│           ├── 📁 (5) - Job Application Form
-│           ├── 📁 (6) - Colored Boxes
-│           └── 📁 (7) - Contact Form
+│           ├── 📁 (01) - Business Card
+│           ├── 📁 (02) - To-Do List
+│           ├── 📁 (03) - Blog Post Card
+│           ├── 📁 (04) - Event Flyer Page
+│           ├── 📁 (05) - Job Application Form
+│           ├── 📁 (06) - Colored Boxes
+│           ├── 📁 (07) - Contact Form
+│           └── 📁 (08) - Feature Selection
 │
 ├── 📁 Pet Projects/
 │   └── 📁 Business Card
@@ -45,23 +46,24 @@ Study-Projects/
 
 | Folder | Project | Demo | 
 |-----|--------|------|
-| **HTML** | **(1) - Recipe Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(1)%20-%20Recipe%20Page/) |
-| **HTML** | **(2) - Travel Agency Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(2)%20-%20Travel%20Agency%20Page/) |
-| **HTML** | **(3) - Christmas Vibes Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(3)%20-%20Christmas%20Vibes%20Page/) |
-| **HTML** | **(4) - Alternative rock Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(4)%20-%20Alternative%20rock%20Page/) |
-| **HTML** | **(5) - Astronomical Event Hub** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(5)%20-%20Astronomical%20Event%20Hub/) |
-| **HTML** | **(6) - Book Catalog Table** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(6)%20-%20Book%20Catalog%20Table/) |
-| **HTML** | **(7) - Coffee Delivery [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(7)%20-%20Coffee%20Delivery%20[Certification%20Project]/) |
-| **HTML** | **(8) - Checkout Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(8)%20-%20Checkout%20Page/) |
-| **HTML** | **(9) - Movie Review Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(9)%20-%20Movie%20Review%20Page/) |
+| **HTML** | **(01) - Recipe Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(01)%20-%20Recipe%20Page/) |
+| **HTML** | **(02) - Travel Agency Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(02)%20-%20Travel%20Agency%20Page/) |
+| **HTML** | **(03) - Christmas Vibes Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(03)%20-%20Christmas%20Vibes%20Page/) |
+| **HTML** | **(04) - Alternative rock Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(04)%20-%20Alternative%20rock%20Page/) |
+| **HTML** | **(05) - Astronomical Event Hub** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(05)%20-%20Astronomical%20Event%20Hub/) |
+| **HTML** | **(06) - Book Catalog Table** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(06)%20-%20Book%20Catalog%20Table/) |
+| **HTML** | **(07) - Coffee Delivery [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(07)%20-%20Coffee%20Delivery%20[Certification%20Project]/) |
+| **HTML** | **(08) - Checkout Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(08)%20-%20Checkout%20Page/) |
+| **HTML** | **(09) - Movie Review Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(09)%20-%20Movie%20Review%20Page/) |
 | **HTML** | **(10) - Multimedia Player** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/HTML/(10)%20-%20Multimedia%20Player/) |
-| **CSS** | **(1) - Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(1)%20-%20Business%20Card/) |
-| **CSS** | **(2) - To-Do List** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(2)%20-%20To-Do%20List/) |
-| **CSS** | **(3) - Blog Post Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(3)%20-%20Blog%20Post%20Card/) |
-| **CSS** | **(4) - Event Flyer Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(4)%20-%20Event%20Flyer%20Page/) |
-| **CSS** | **(5) - Job Application Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(5)%20-%20Job%20Application%20Form/) |
-| **CSS** | **(6) - Colored Boxes** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(6)%20-%20Colored%20Boxes/) |
-| **CSS** | **(7) - Contact Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(7)%20-%20Contact%20Form/) |
+| **CSS** | **(01) - Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(01)%20-%20Business%20Card/) |
+| **CSS** | **(02) - To-Do List** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(02)%20-%20To-Do%20List/) |
+| **CSS** | **(03) - Blog Post Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(03)%20-%20Blog%20Post%20Card/) |
+| **CSS** | **(04) - Event Flyer Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(04)%20-%20Event%20Flyer%20Page/) |
+| **CSS** | **(05) - Job Application Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(05)%20-%20Job%20Application%20Form/) |
+| **CSS** | **(06) - Colored Boxes** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(06)%20-%20Colored%20Boxes/) |
+| **CSS** | **(07) - Contact Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(07)%20-%20Contact%20Form/) |
+| **CSS** | **(08) - Feature Selection** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(08)%20-%20Feature%20Selection/) |
 </details>
 
 <details>
