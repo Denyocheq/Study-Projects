@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#email{
+  font-family: Helvetica;
+  padding: 50px;
+  margin: 50px auto 0;
+  width: 500px;
+  border: 2px solid #ecdcbd;
+  background-color: #FDF5E6;
+  /* The assignment required this style here */
+  box-sizing: border-box; 
+}
+
+#confidential, #top-secret{
+  display: inline-block;
+  font-weight: 700;
+  padding: 5px 20px;
+  opacity: 0.7;
+  border: 3px solid;
+}
+
+#confidential{
+  color: #4154fb;
+  border-color: #4154fb;
+  margin-bottom: 15px;
+  margin-left: 200px;
+  transform: rotate(3deg);
+}
+
+#top-secret{
+  color: red;
+  border-color:red;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 150px;
+  transform: rotate(-15deg);
+}
+
+.blurred{
+  filter: blur(3px);
+}
