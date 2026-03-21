@@ -32,7 +32,8 @@ Study-Projects/
 │           ├── 📁 (06) - Colored Boxes
 │           ├── 📁 (07) - Contact Form
 │           ├── 📁 (08) - Feature Selection
-│           └── 📁 (09) - Confidential Email
+│           ├── 📁 (09) - Confidential Email
+│           └── 📁 (10) - Pizza Delivery Pricing Plans
 │
 ├── 📁 Pet Projects/
 │   └── 📁 Business Card
@@ -66,6 +67,7 @@ Study-Projects/
 | **CSS** | **(07) - Contact Form** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(07)%20-%20Contact%20Form/) |
 | **CSS** | **(08) - Feature Selection** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(08)%20-%20Feature%20Selection/) |
 | **CSS** | **(09) - Confidential Email** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(09)%20-%20Confidential%20Email/) |
+| **CSS** | **(10) - Pizza Delivery Pricing Plans** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(10)%20-%20Pizza%20Delivery%20Pricing%20Plans/) |
 </details>
 
 <details>
