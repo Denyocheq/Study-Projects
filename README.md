@@ -77,6 +77,6 @@ Study-Projects/
 | Project | Demo |
 |--------|------|
 | **Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/Pet%20Projects/Business%20Card/) |
-| **Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/Pet%20Projects/Konstruct/) |
+| **Konstruct** | [🌐 Open](https://denyocheq.github.io/Study-Projects/Pet%20Projects/Konstruct/) |
 | **Something cool will be here soon!** | SOON |
 </details>
