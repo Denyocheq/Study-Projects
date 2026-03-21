@@ -36,7 +36,8 @@ Study-Projects/
 │           └── 📁 (10) - Pizza Delivery Pricing Plans
 │
 ├── 📁 Pet Projects/
-│   └── 📁 Business Card
+│   ├── 📁 Business Card
+│   └── 📁 Konstruct
 │
 │  
 └── README.md                                                # You are reading this file
@@ -76,5 +77,6 @@ Study-Projects/
 | Project | Demo |
 |--------|------|
 | **Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/Pet%20Projects/Business%20Card/) |
+| **Business Card** | [🌐 Open](https://denyocheq.github.io/Study-Projects/Pet%20Projects/Konstruct/) |
 | **Something cool will be here soon!** | SOON |
 </details>
