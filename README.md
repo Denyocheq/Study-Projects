@@ -34,7 +34,8 @@ Study-Projects/
 │           ├── 📁 (08) - Feature Selection
 │           ├── 📁 (09) - Confidential Email
 │           ├── 📁 (10) - Pizza Delivery Pricing Plans
-│           └── 📁 (11) - Mutant Ninja Turtles Cards [Certification Project]
+│           ├── 📁 (11) - Mutant Ninja Turtles Cards [Certification Project]
+│           └── 📁 (12) - The Hawkins Post
 │
 ├── 📁 Pet Projects/
 │   ├── 📁 Business Card
@@ -71,6 +72,7 @@ Study-Projects/
 | **CSS** | **(09) - Confidential Email** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(09)%20-%20Confidential%20Email/) |
 | **CSS** | **(10) - Pizza Delivery Pricing Plans** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(10)%20-%20Pizza%20Delivery%20Pricing%20Plans/) |
 | **CSS** | **(11) - Mutant Ninja Turtles Cards [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(11)%20-%20Mutant%20Ninja%20Turtles%20Cards%20[Certification%20Project]/) |
+| **CSS** | **(12) - The Hawkins Post** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(12)%20-%20The%20Hawkins%20Post/) |
 </details>
 
 <details>
