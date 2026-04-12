@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 575px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-left: -130px;
+  align-items: center;
+}
+
+#house {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  background-color: #feea00;
+  border: 1px solid #feea00;
+  transform: scale(60%);
+}
+
+#house > div {
+  position: absolute;
+}
+
+#roof {
+  height: 200px;
+  width: 400px;
+  top: 0;
+  border-left: 249px solid transparent;
+  border-right: 249px solid transparent;
+  border-top: 200px solid #ff6501;
+  transform: rotate(180deg) translateY(calc(100% + 10px));
+}
+
+#window-1 {
+  background-color: #52b4fd;
+  width: 170px;
+  height: 170px;
+  top: 140px;
+  right: 90px;
+}
+
+#cat {
+  position: relative;
+  top: 60px;
+  left: 32px;
+}
+
+#cat-head {
+  position: absolute;
+  width: 100px;
+  height: 80px;
+  background-color: #fefefe;
+  border-radius: 46%;
+  z-index: 2;
+  overflow: hidden;
+}
+
+#cat-head::after {
+  content: "";
+  background-color: #ffcc01;
+  width: 41px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 40%;
+}
+
+#cat-neck {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  width: 70px;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 80px solid #fefefe;
+}
+
+#left-ear {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  transform: rotate(-33deg);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 40px solid #fefefe;
+  z-index: 1;
+}
+
+#right-ear {
+  position: absolute;
+  top: -15px;
+  right: 55px;
+  transform: rotate(33deg);
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 40px solid #fefefe;
+  z-index: 1;
+}
+
+#left-eye {
+  position: absolute;
+  background-color: #64382b;
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 3;
+  top: 23px;
+  left: 18px;
+}
+
+#right-eye {
+  position: absolute;
+  background-color: #64382b;
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 3;
+  top: 23px;
+  right: 20px;
+}
+
+#left-eye {
+  position: absolute;
+}
+
+#cat-mouth {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #623425;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  top: 30px;
+  left: 41px;
+}
+
+#window-2 {
+  background-color: #52b4fd;
+  width: 85px;
+  height: 85px;
+  top: 60px;
+  left: 70px;
+}
+
+#roof-window {
+  position: absolute;
+  background-color: #990100;
+  width: 70px;
+  height: 70px;
+  bottom: 90px;
+  right: -35px;
+}
+
+#hallway {
+  height: 239px;
+  width: 250px;
+  background-color: #feea00;
+  right: calc(-250px - 10px);
+  bottom: -1px;
+}
+
+#hallway-roof {
+  right: calc(-250px - 10px);
+  transform: rotate(180deg);
+  border-left: 250px solid transparent;
+  border-right: 0px solid transparent;
+  border-top: 150px solid #ff6501;
+}
+
+#chimney {
+  width: 70px;
+  height: 120px;
+  background-color: #feea00;
+  top: 0px;
+  right: -170px;
+}
+
+#chimney-upper-part {
+  position: absolute;
+  top: calc(-60px - 10px);
+  left: -35px;
+  width: 140px;
+  height: 60px;
+  background-color: #ff6501;
+}
+
+#door {
+  height: 200px;
+  width: 130px;
+  bottom: 0;
+  right: calc(-190px - 10px);
+  z-index: 1;
+  background-color: #990100;
+}
+
+#door-window {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 27px;
+  top: 20px;
+  background-color: #52b4fd;
+}
