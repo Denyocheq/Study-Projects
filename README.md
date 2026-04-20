@@ -36,7 +36,8 @@ Study-Projects/
 │           ├── 📁 (10) - Pizza Delivery Pricing Plans
 │           ├── 📁 (11) - Mutant Ninja Turtles Cards [Certification Project]
 │           ├── 📁 (12) - The Hawkins Post
-│           └── 📁 (13) - Tribute Page
+│           ├── 📁 (13) - Tribute Page
+│           └── 📁 (14) - House Painting
 │
 ├── 📁 Pet Projects/
 │   ├── 📁 Business Card
@@ -75,6 +76,7 @@ Study-Projects/
 | **CSS** | **(11) - Mutant Ninja Turtles Cards [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(11)%20-%20Mutant%20Ninja%20Turtles%20Cards%20[Certification%20Project]/) |
 | **CSS** | **(12) - The Hawkins Post** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(12)%20-%20The%20Hawkins%20Post/) |
 | **CSS** | **(13) - Tribute Page** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(13)%20-%20Tribute%20Page/) |
+| **CSS** | **(14) - House Painting** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(14)%20-%20House%20Painting/) |
 </details>
 
 <details>
