@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+table {
+  max-width: calc(100% - 20px);
+  border-collapse: collapse;
+  margin: 30px auto 0;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  white-space: nowrap;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+  background-color: #000000;
+  color: #fff;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+th:last-of-type {
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+}
+
+tr[class="read"],
+tr[class="to-read"],
+tr[class="in-progress"] {
+  background-image: linear-gradient(to bottom, white 99%, #c5c5c5 99%);
+}
+
+tr[class="read"] span[class="status"] {
+  border: 1px solid #6c6c6c;
+  background-image: linear-gradient(to right, #51c351 50%, #fff 50%);
+
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: fillToFull 2s ease-out forwards;
+}
+
+@keyframes fillToFull {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0% 0;
+  }
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 1px solid #6c6c6c;
+  background-image: linear-gradient(to right, #f36666 50%, #fff 50%);
+
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: Clear 2s ease-out forwards;
+}
+
+@keyframes Clear {
+  0% {
+    background-position: 0% 0;
+  }
+  100% {
+    background-position: 95% 0;
+  }
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 1px solid #6c6c6c;
+  background-image: linear-gradient(to right, #fbd139 50%, white 50%);
+
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: fillToHalf 2s ease-out forwards;
+}
+
+@keyframes fillToHalf {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 50% 0;
+  }
+}
+
+span {
+  display: inline-block;
+}
+
+span[class^="rate"],
+span[class="status"] {
+  height: auto;
+  width: auto;
+  padding: 5px 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px;
+}
+
+tr td:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+span[class^="rate"] > span {
+  border: 1px solid #6c6c6c;
+  border-radius: 0;
+  margin: 0 3px;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  transform: rotate(45deg);
+}
+
+span[class~="one"] span:first-child,
+span[class~="two"] span:nth-child(-n + 2),
+span[class~="three"] span {
+  background-image: linear-gradient(to bottom, yellow);
+}
+
+.to-read span[class^="rate"] > span,
+.in-progress span[class^="rate"] > span {
+  background-image: linear-gradient(to bottom, transparent) !important;
+}
