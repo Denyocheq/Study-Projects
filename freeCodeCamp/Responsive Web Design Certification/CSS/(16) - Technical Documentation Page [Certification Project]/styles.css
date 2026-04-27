@@ -45,6 +45,7 @@ header h2 {
   color: #5c7abf;
   font-family: monospace;
   font-size: 1.8rem;
+  line-height: 2rem;
   margin: 50px 0 30px;
 }
 
@@ -76,7 +77,7 @@ nav {
 
 nav h1 {
   font-size: 1.7rem;
-  margin-bottom: 50px;
+  margin: 70px 0 50px;
 }
 
 nav ul {
@@ -242,6 +243,11 @@ body:has(#burger-btn:checked) {
   nav {
     display: block;
     width: 30%;
+  }
+
+  nav h1 {
+    font-size: 1.7rem;
+    margin: 50px 0;
   }
 
   .burger {
