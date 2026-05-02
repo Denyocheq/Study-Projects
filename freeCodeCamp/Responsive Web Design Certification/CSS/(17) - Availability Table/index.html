@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Availability table showing the occupancy level from busy to free." />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Availability Table</title>
+  </head>
+
+  <body>
+    <table>
+      <caption>
+        Availability Table
+      </caption>
+      <tr>
+        <th aria-hidden="true"></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+      </tr>
+      <tr>
+        <th class="time">09:00 - 11:00</th>
+        <td class="available-3" aria-label="available = 3"></td>
+        <td class="available-2" aria-label="available = 2"></td>
+        <td class="available-5" aria-label="available = 5"></td>
+        <td class="available-1" aria-label="available = 1"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+      </tr>
+      <tr>
+        <th class="time">11:00 - 13:00</th>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-1" aria-label="available = 1"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-1" aria-label="available = 1"></td>
+      </tr>
+      <tr>
+        <th class="time">13:00 - 15:00</th>
+        <td class="available-1" aria-label="available = 1"></td>
+        <td class="available-1" aria-label="available = 1"></td>
+        <td class="available-1" aria-label="available = 1"></td>
+        <td class="available-2" aria-label="available = 2"></td>
+        <td class="available-2" aria-label="available = 2"></td>
+      </tr>
+      <tr>
+        <th class="time">15:00 - 17:00</th>
+        <td class="available-2" aria-label="available = 2"></td>
+        <td class="available-1" aria-label="available = 1"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-4" aria-label="available = 4"></td>
+      </tr>
+      <tr>
+        <th class="time">17:00 - 19:00</th>
+        <td class="available-5" aria-label="available = 5"></td>
+        <td class="available-5" aria-label="available = 5"></td>
+        <td class="available-4" aria-label="available = 4"></td>
+        <td class="available-5" aria-label="available = 5"></td>
+        <td class="available-4" aria-label="available = 4"></td>
+      </tr>
+      <tr>
+        <th class="time">19:00 - 21:00</th>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-0" aria-label="available = 0"></td>
+        <td class="available-1" aria-label="available = 1"></td>
+      </tr>
+    </table>
+
+    <div id="legend">
+      <span
+        aria-label="An availability of 0 means it is fully loaded, while an availability of 5 means it is completely free."
+        >Availability</span
+      >
+      <div id="legend-gradient"></div>
+    </div>
+
+    <div aria-hidden="true" class="theme">
+      <span>Hover to display other color themes:</span>
+      <div class="themes">
+        <div class="skyblue"></div>
+        <div class="purple"></div>
+        <div class="black-and-white"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--Denyocheq-->
