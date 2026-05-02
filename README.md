@@ -39,7 +39,8 @@ Study-Projects/
 │           ├── 📁 (13) - Tribute Page
 │           ├── 📁 (14) - House Painting
 │           ├── 📁 (15) - Book Inventory [Certification Project]
-│           └── 📁 (16) - Technical Documentation Page [Certification Project]
+│           ├── 📁 (16) - Technical Documentation Page [Certification Project]
+│           └── 📁 (17) - Availability Table
 │
 ├── 📁 Pet Projects/
 │   ├── 📁 Business Card
@@ -81,6 +82,7 @@ Study-Projects/
 | **CSS** | **(14) - House Painting** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(14)%20-%20House%20Painting/) |
 | **CSS** | **(15) - Book Inventory [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(15)%20-%20Book%20Inventory%20[Certification%20Project]/) |
 | **CSS** | **(16) - Technical Documentation Page [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(16)%20-%20Technical%20Documentation%20Page%20[Certification%20Project]/) |
+| **CSS** | **(17) - Availability Table** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(17)%20-%20Availability%20Table/) |
 </details>
 
 <details>
