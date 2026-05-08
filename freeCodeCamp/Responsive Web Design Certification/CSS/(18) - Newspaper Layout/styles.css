@@ -1,0 +1,163 @@
+:root {
+  --primary-color: #1a1a1b;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.newspaper-layout {
+  display: grid;
+  max-width: 1000px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr 1fr 1fr;
+  gap: 30px;
+  grid-template-areas:
+    "title title title"
+    "feature-article feature-article cover-image"
+    "secondary-article secondary-article cover-image"
+    "small-article1 small-article2 small-article3";
+}
+
+.title {
+  grid-area: title;
+  padding: 10px 40px;
+  background-color: var(--primary-color);
+  color: #f1f1f1;
+}
+
+h1 {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
+h2,
+h3,
+.title p {
+  font-family: "Old Standard TT", serif;
+  text-align: left;
+}
+
+h2,
+h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  column-width: 15rem;
+  text-align: justify;
+}
+
+.feature-article {
+  grid-area: feature-article;
+}
+
+.secondary-article {
+  grid-area: secondary-article;
+}
+
+.cover-image {
+  grid-area: cover-image;
+}
+
+.cover-image img {
+  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
+}
+
+.small-article1 {
+  grid-area: small-article1;
+}
+
+.small-article2 {
+  grid-area: small-article2;
+}
+
+.small-article3 {
+  grid-area: small-article3;
+}
+
+.small-article1,
+.small-article2,
+.small-article3 {
+  padding: 20px;
+  border-top: 5px solid var(--primary-color);
+  margin-bottom: 40px;
+  background-color: #f4f4f4;
+}
+
+@media screen and (max-width: 1050px) {
+  .newspaper-layout {
+    grid-template-areas:
+      "title title"
+      "cover-image cover-image"
+      "feature-article feature-article"
+      "secondary-article secondary-article"
+      "small-article1 small-article2"
+      "small-article3 small-article3";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  p {
+    column-width: 20rem;
+  }
+
+  .newspaper-layout {
+    margin: 0 30px 40px;
+  }
+
+  .title {
+    margin: 0 -30px;
+  }
+
+  .small-article1,
+  .small-article2,
+  .small-article3 {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+
+  .title {
+    padding: 10px 15px;
+  }
+
+  .newspaper-layout {
+    grid-template-areas:
+      "title"
+      "cover-image"
+      "feature-article"
+      "secondary-article"
+      "small-article1"
+      "small-article2"
+      "small-article3";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .newspaper-layout {
+    margin: 0 15px 40px;
+  }
+
+  .title {
+    margin: 0 -15px;
+  }
+}
