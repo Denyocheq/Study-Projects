@@ -42,7 +42,8 @@ Study-Projects/
 │           ├── 📁 (16) - Technical Documentation Page [Certification Project]
 │           ├── 📁 (17) - Availability Table
 │           ├── 📁 (18) - Newspaper Layout
-│           └── 📁 (19) - Product Landing Page [Certification Project]
+│           ├── 📁 (19) - Product Landing Page [Certification Project]
+│           └── 📁 (20) - Moon Orbit
 │
 ├── 📁 Pet Projects/
 │   ├── 📁 Business Card
@@ -87,6 +88,7 @@ Study-Projects/
 | **CSS** | **(17) - Availability Table** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(17)%20-%20Availability%20Table/) |
 | **CSS** | **(18) - Newspaper Layout** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(18)%20-%20Newspaper%20Layout/) |
 | **CSS** | **(19) - Product Landing Page [Certification Project]** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(19)%20-%20Product%20Landing%20Page%20[Certification%20Project]/) |
+| **CSS** | **(20) - Moon Orbit** | [🌐 Open](https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(20)%20-%20Moon%20Orbit/) |
 </details>
 
 <details>
