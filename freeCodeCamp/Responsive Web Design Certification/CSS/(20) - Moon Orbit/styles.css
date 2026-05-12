@@ -1,0 +1,180 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #02001b;
+  overflow: hidden;
+}
+
+.space {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.earth {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background-color: #7070ff;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 20px #7c7cf6;
+}
+
+.earth::before {
+  content: "";
+  position: absolute;
+  background-color: green;
+  height: 40px;
+  width: 70px;
+  bottom: 0px;
+  transform: rotate(15deg);
+  left: 20px;
+  border-radius: 50%;
+}
+
+.earth::after {
+  content: "";
+  position: absolute;
+  background-color: green;
+  height: 90px;
+  width: 80px;
+  bottom: 14px;
+  left: 10px;
+  transform: rotate(20deg);
+  border-radius: 40%;
+  z-index: -1;
+}
+
+.eye {
+  animation: eyes 5s linear infinite;
+}
+
+.eyes > .eye {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+}
+
+.eye.left {
+  left: 20%;
+  top: 30%;
+}
+
+.eye.right {
+  right: 20%;
+  top: 30%;
+}
+
+.inner-eye {
+  top: 0%;
+  left: 50%;
+  transform: translate(-65%);
+  position: absolute;
+  border-radius: 50%;
+  background-color: #7070ff;
+  width: 15px;
+  height: 15px;
+}
+
+.inner-eye::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  display: block;
+}
+
+.mouth {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  border-bottom: 2px solid #000;
+}
+
+.orbit {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  animation: orbit 5s linear infinite;
+}
+
+.moon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  left: 50%;
+  background-color: #efefb5;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  box-shadow: 0 0 10px #f8f828;
+}
+
+.moon::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 9px;
+  background-color: #cfcf8f;
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+}
+
+.moon::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 15px;
+  background-color: #cfcf8f;
+  border-radius: 50%;
+  bottom: 0;
+  right: 0;
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translate(-50%, -50%);
+  }
+
+  100% {
+    transform: rotate(360deg) translate(-50%, -50%);
+  }
+}
+
+@keyframes eyes {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
