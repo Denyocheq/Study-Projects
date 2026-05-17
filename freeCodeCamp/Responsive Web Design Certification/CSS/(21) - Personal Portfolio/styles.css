@@ -5,6 +5,10 @@
   --additional-color: #171717;
   --primary-text: #fff;
   --secondary-text: #909090;
+  --custom-cursor:
+    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="white" stroke-width="2" fill="none"/></svg>')
+      12 12,
+    auto;
 }
 
 *,
@@ -35,26 +39,18 @@
   border-radius: 0px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: var(--additional-color);
-  border: none;
-}
-
-html {
+.root {
   font-size: 10px;
 }
 
-body {
+.page {
   background-color: var(--background-color);
   color: var(--primary-text);
   font-family: "Montserrat", sans-serif;
-  cursor:
-    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="white" stroke-width="2" fill="none"/></svg>')
-      12 12,
-    auto;
+  cursor: var(--custom-cursor);
 }
 
-#navbar {
+.navbar {
   position: fixed;
   width: 100%;
   top: 0;
@@ -69,13 +65,50 @@ body {
   padding-right: calc(var(--container-padding) + 5px);
 }
 
-ul {
+.navbar__logo {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar__logo-link {
+  display: inline-block;
+  font-size: 1.75rem;
+  color: var(--primary-text);
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+.navbar__logo-link:active {
+  color: var(--secondary-text);
+}
+
+@keyframes logo {
+  10% {
+    transform: scaleY(0.1);
+  }
+
+  20% {
+    transform: scaleY(1);
+  }
+
+  30% {
+    transform: scaleY(0.1);
+  }
+
+  40% {
+    transform: scaleY(1);
+  }
+}
+
+.navbar__list {
   list-style: none;
   display: flex;
   gap: 2rem;
 }
 
-a {
+.navbar__link {
   text-transform: uppercase;
   color: var(--secondary-text);
   text-decoration: none;
@@ -84,56 +117,12 @@ a {
   transition: color 0.3s ease;
 }
 
-a:hover {
+.navbar__link:active {
   color: var(--primary-text);
-  cursor:
-    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="white" stroke-width="2" fill="none"/></svg>')
-      12 12,
-    auto;
+  cursor: var(--custom-cursor);
 }
 
-h1,
-h2,
-.logo {
-  font-family: "Zen Dots", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.logo a {
-  display: inline-block;
-  font-size: 1.75rem;
-  color: var(--primary-text);
-  transition: text-shadow 0.3s ease;
-}
-
-@keyframes logo {
-  10% {
-    transform: scaleY(1);
-  }
-
-  20% {
-    transform: scaleY(0.1);
-  }
-
-  30% {
-    transform: scaleY(1);
-  }
-
-  40% {
-    transform: scaleY(0.1);
-  }
-
-  50% {
-    transform: scaleY(1);
-  }
-}
-
-.logo a:hover {
-  animation: logo 3s ease 1;
-}
-
-main {
+.main {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -141,14 +130,10 @@ main {
   padding: var(--container-padding);
 }
 
-section {
+.welcome-section {
   height: 100vh;
   scroll-snap-align: start;
   position: relative;
-}
-
-#welcome-section {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,43 +144,51 @@ section {
   text-transform: uppercase;
 }
 
-h1 {
+.welcome-text__heading {
   font-size: 3rem;
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-h1 span,
-.position {
+.welcome-text__prefix,
+.welcome-text__position {
   font-size: var(--small-text);
   position: absolute;
   color: var(--secondary-text);
   font-family: "Montserrat", sans-serif;
 }
 
-h1 span {
+.welcome-text__prefix {
   top: -1.3rem;
   left: 3rem;
 }
 
-.position {
-  color: var(--secondary-text);
+.welcome-text__position {
   bottom: -1.3rem;
   right: 3rem;
 }
 
-#project-section {
+.project-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
 }
 
-h2 {
+.project-section__heading {
   font-size: 3rem;
   text-transform: uppercase;
   text-align: center;
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   z-index: 2;
 }
 
-.project-tiles {
+.project-section__cards {
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
@@ -203,12 +196,12 @@ h2 {
   scroll-behavior: smooth;
 }
 
-.project-tiles::-webkit-scrollbar {
+.project-section__cards::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
 
-.project-tile {
+.project-section__card {
   min-width: calc(100vw - var(--container-padding) * 2);
   scroll-snap-align: start;
   scroll-behavior: smooth;
@@ -219,13 +212,7 @@ h2 {
   justify-content: center;
 }
 
-.project-tile img {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.project-tile::after {
+.project-section__card::after {
   content: "";
   position: absolute;
   top: 0;
@@ -237,12 +224,140 @@ h2 {
   pointer-events: none;
 }
 
-.slide-it {
+.project-section__card-link {
+  cursor: var(--custom-cursor);
+}
+
+.project-section__card-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-section__text {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
   color: var(--secondary-text);
+}
+
+.contact-section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-section__heading {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact-form {
+  background-color: var(--additional-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 0.5rem;
+}
+
+.contact-form__input,
+.contact-form__textarea {
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-text);
+  font-size: 1.5rem;
+  outline: none;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--secondary-text);
+  background-color: transparent;
+  padding: 0.3rem;
+}
+
+.contact-form__textarea {
+  resize: none;
+}
+
+.contact-form__input::placeholder,
+.contact-form__textarea::placeholder {
+  color: var(--secondary-text);
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-form__input[type="number"]::-webkit-inner-spin-button,
+.contact-form__input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-form__textarea::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+.contact-form__textarea::-webkit-scrollbar-track {
+  background: var(--secondary-text);
+  border-radius: 0px;
+}
+
+.contact-form__textarea::-webkit-scrollbar-thumb {
+  background: var(--background-color);
+  border-radius: 0px;
+}
+
+.contact-form__submit {
+  margin-top: 3rem;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: var(--custom-cursor);
+  color: var(--secondary-text);
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1rem;
+  border: 1px solid var(--secondary-text);
+  position: relative;
+}
+
+.contact-form__submit::after {
+  content: "Send message";
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 0;
+  background-color: var(--primary-text);
+  pointer-events: none;
+}
+
+.contact-form__submit:active {
+  color: var(--background-color);
+}
+
+.contact-form__submit:active::after {
+  color: var(--background-color);
+  opacity: 1;
+  height: 100%;
+  border: 1px solid var(--primary-text);
 }
 
 .social-media {
@@ -257,154 +372,63 @@ h2 {
   z-index: 99;
 }
 
-#contact-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
-form {
-  background-color: var(--additional-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
-  margin-top: 0.5rem;
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: var(--secondary-text);
+.social-media__link {
   text-transform: uppercase;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
+  color: var(--secondary-text);
+  text-decoration: none;
+  font-size: var(--small-text);
+  transition: color 0.3s ease;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-input,
-textarea {
-  font-family: "Montserrat", sans-serif;
+.social-media__link:active {
   color: var(--primary-text);
-  font-size: 1.5rem;
-  outline: none;
-  width: 100%;
-  border: none;
-  border-bottom: 1px solid var(--secondary-text);
-  background-color: transparent;
-  padding: 0.3rem;
+  cursor: var(--custom-cursor);
 }
 
-textarea {
-  resize: none;
-}
-
-textarea::-webkit-scrollbar {
-  width: 1px;
-  height: 1px;
-}
-
-textarea::-webkit-scrollbar-track {
-  background: var(--secondary-text);
-  border-radius: 0px;
-}
-
-textarea::-webkit-scrollbar-thumb {
-  background: var(--background-color);
-  border-radius: 0px;
-}
-
-textarea::-webkit-scrollbar-thumb:hover {
-  background: var(--additional-color);
-  border: none;
-}
-
-button[type="submit"] {
-  margin-top: 3rem;
-  font-weight: bold;
-  background-color: transparent;
-  cursor:
-    url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" stroke="white" stroke-width="2" fill="none"/></svg>')
-      12 12,
-    auto;
-  color: var(--secondary-text);
-  padding: 1rem 3rem;
-  text-transform: uppercase;
-  letter-spacing: 0.2rem;
-  font-size: 1rem;
-  border: 1px solid var(--secondary-text);
-  position: relative;
-}
-
-button[type="submit"]:hover {
-  color: var(--background-color);
-}
-
-button[type="submit"]::after {
-  content: "Send message";
-  opacity: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 100%;
-  height: 0;
-  transform: translateY(-50%);
-  top: 50%;
-  left: 0;
-  background-color: var(--primary-text);
-  transition: all 0.3s ease;
-  pointer-events: none;
-}
-
-button[type="submit"]:hover::after {
-  color: var(--background-color);
-  opacity: 1;
-  height: 100%;
-  border: 1px solid var(--primary-text);
-}
-
-.social-media i {
+.social-media__icon {
   font-size: 2rem;
 }
 
 .scroll-down {
+  text-transform: uppercase;
+  color: var(--secondary-text);
+  text-decoration: none;
+  font-size: var(--small-text);
+  letter-spacing: 0.1rem;
   position: absolute;
   bottom: var(--container-padding);
   right: 0;
   font-weight: bold;
   writing-mode: vertical-rl;
   transform: scale(-1);
+  transition: all 0.3s ease;
 }
 
-.question {
+.scroll-down:active {
+  color: var(--primary-text);
+  cursor: var(--custom-cursor);
+}
+
+.contact-section__question {
   display: none;
 }
 
 @media screen and (min-width: 540px) {
-  html {
+  .root {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  html {
+  .root {
     font-size: 14px;
   }
 
-  #project-section {
+  .project-section {
     align-items: center;
   }
 
-  .project-tiles {
+  .project-section__cards {
     justify-content: center;
     align-items: flex-end;
     overflow: hidden;
@@ -415,7 +439,7 @@ button[type="submit"]:hover::after {
     gap: 2rem;
   }
 
-  .project-tile {
+  .project-section__card {
     will-change: transform;
     backface-visibility: hidden;
     min-width: 10vw;
@@ -432,37 +456,40 @@ button[type="submit"]:hover::after {
     opacity: 0.5;
   }
 
-  .project-tiles .project-tile:hover {
-    flex: 2.5;
-    filter: blur(0);
-    opacity: 1;
-  }
-
-  .slide-it {
+  .project-section__text {
     display: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  #contact-section {
+  .contact-section {
     flex-direction: row;
     gap: 5rem;
     max-width: 1440px;
     margin: 0 auto;
   }
 
-  #contact-section h2 {
+  .contact-section__heading {
     font-size: 2rem;
   }
 
-  .question {
+  .contact-section__question {
     max-width: 40%;
     display: flex;
     flex-direction: column;
     gap: 3rem;
   }
 
-  .CTA-text {
+  .contact-section__question-heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .contact-section__cta-text {
     text-align: center;
     font-size: var(--small-text);
     color: var(--secondary-text);
@@ -472,11 +499,65 @@ button[type="submit"]:hover::after {
 }
 
 @media screen and (min-width: 1920px) {
-  html {
+  .root {
     font-size: 16px;
   }
 
-  .project-tiles {
+  .project-section__cards {
     max-width: min(1300px, 100%);
+  }
+}
+
+@media screen and (hover: hover) {
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--additional-color);
+    border: none;
+  }
+
+  .navbar__logo-link:hover {
+    animation: logo 2.5s ease 0.5s 1;
+    cursor: var(--custom-cursor);
+  }
+
+  .navbar__link:hover {
+    color: var(--primary-text);
+    cursor: var(--custom-cursor);
+  }
+
+  .project-section__card:hover {
+    flex: 2.5;
+    filter: blur(0);
+    opacity: 1;
+  }
+
+  .contact-form__textarea::-webkit-scrollbar-thumb:hover {
+    background: var(--additional-color);
+    border: none;
+  }
+
+  .contact-form__submit::after {
+    transition: all 0.3s ease;
+  }
+
+  .contact-form__submit:hover {
+    color: var(--background-color);
+  }
+
+  .contact-form__submit:hover::after {
+    color: var(--background-color);
+    opacity: 1;
+    height: 100%;
+    border: 1px solid var(--primary-text);
+  }
+
+  .social-media__link:hover {
+    color: var(--primary-text);
+    cursor: var(--custom-cursor);
+  }
+
+  .scroll-down:hover {
+    color: var(--primary-text);
+    transform: scale(-1) translateY(-0.5rem);
+    cursor: var(--custom-cursor);
   }
 }

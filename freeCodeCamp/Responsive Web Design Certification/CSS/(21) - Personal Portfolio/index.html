@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="root">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,76 +15,91 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Denyocheq</title>
   </head>
-  <body>
+  <body class="page">
     <header>
-      <nav id="navbar">
-        <div class="logo"><a href="#welcome-section">DQ</a></div>
-        <ul>
-          <li><a href="#project-section">Projects</a></li>
-          <li><a href="#contact-section">Contact</a></li>
+      <nav class="navbar">
+        <div class="navbar__logo"><a class="navbar__logo-link" href="#welcome-section">DQ</a></div>
+        <ul class="navbar__list">
+          <li><a class="navbar__link" href="#project-section">Projects</a></li>
+          <li><a class="navbar__link" href="#contact-section">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="welcome-section">
+    <main class="main">
+      <section id="welcome-section" class="welcome-section">
         <div class="welcome-text">
-          <h1><span>I &nbsp;am</span> Denyocheq</h1>
-          <div class="position">Frontend Developer</div>
+          <h1 class="welcome-text__heading"><span class="welcome-text__prefix">I &nbsp;am</span> Denyocheq</h1>
+          <div class="welcome-text__position">Frontend Developer</div>
         </div>
         <a href="#project-section" class="scroll-down">← scroll</a>
       </section>
-      <section id="project-section">
-        <h2>Projects</h2>
-        <div class="project-tiles">
-          <div class="project-tile">
+      <section id="project-section" class="project-section">
+        <h2 class="project-section__heading">Projects</h2>
+        <div class="project-section__cards">
+          <div class="project-section__card">
             <a
+              class="project-section__card-link"
               href="https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(19)%20-%20Product%20Landing%20Page%20%5BCertification%20Project%5D/"
               target="_blank"
-              ><img src="images/mallow.png" alt="Mallow project preview"
+              ><img class="project-section__card-image" src="images/mallow.png" alt="Mallow project preview"
             /></a>
           </div>
-          <div class="project-tile">
-            <a href="https://denyocheq.github.io/Study-Projects/Pet%20Projects/Konstruct/" target="_blank"
-              ><img src="images/konstruct.png" alt="Konstruct project preview"
-            /></a>
-          </div>
-          <div class="project-tile">
+          <div class="project-section__card">
             <a
+              class="project-section__card-link"
+              href="https://denyocheq.github.io/Study-Projects/Pet%20Projects/Konstruct/"
+              target="_blank"
+              ><img class="project-section__card-image" src="images/konstruct.png" alt="Konstruct project preview"
+            /></a>
+          </div>
+          <div class="project-section__card">
+            <a
+              class="project-section__card-link"
               href="https://denyocheq.github.io/Study-Projects/freeCodeCamp/Responsive%20Web%20Design%20Certification/CSS/(13)%20-%20Tribute%20Page/"
               target="_blank"
-              ><img src="images/tribute-page.png" alt="Tribute Page project preview"
+              ><img
+                class="project-section__card-image"
+                src="images/tribute-page.png"
+                alt="Tribute Page project preview"
             /></a>
           </div>
         </div>
-        <div class="slide-it">Slide it ⟶</div>
+        <div class="project-section__text">Slide it ⟶</div>
         <a href="#contact-section" class="scroll-down">← scroll</a>
       </section>
-      <section id="contact-section">
-        <div class="question">
-          <h2>Business question or just stumbled across this page?</h2>
-          <div class="CTA-text">Anyway - write</div>
+      <section id="contact-section" class="contact-section">
+        <div class="contact-section__question">
+          <h2 class="contact-section__question-heading">Business question or just stumbled across this page?</h2>
+          <div class="contact-section__cta-text">Anyway - write</div>
         </div>
         <div>
-          <h2>Contact</h2>
-          <form action="#welcome-section">
-            <input type="text" name="name" placeholder="Your name" />
-            <input type="number" name="phone" placeholder="Your phone" />
-            <input type="email" name="email" placeholder="Your email" />
-            <textarea type="text" name="message" cols="25" rows="5" placeholder="Message"></textarea>
-            <button type="submit">Send message</button>
+          <h2 class="contact-section__heading">Contact</h2>
+          <form action="#welcome-section" class="contact-form">
+            <input class="contact-form__input" type="text" name="name" placeholder="Your name" />
+            <input class="contact-form__input" type="number" name="phone" placeholder="Your phone" />
+            <input class="contact-form__input" type="email" name="email" placeholder="Your email" />
+            <textarea
+              class="contact-form__textarea"
+              type="text"
+              name="message"
+              cols="25"
+              rows="5"
+              placeholder="Message"
+            ></textarea>
+            <button class="contact-form__submit" type="submit">Send message</button>
           </form>
         </div>
       </section>
     </main>
     <footer class="social-media">
-      <a href="https://t.me/Denyocheq" target="_blank" class="social-icon">
-        <i class="fab fa-telegram" aria-label="Telegram"></i>
+      <a class="social-media__link" href="https://t.me/Denyocheq" target="_blank">
+        <i class="social-media__icon fab fa-telegram" aria-label="Telegram"></i>
       </a>
-      <a href="https://github.com/Denyocheq" target="_blank" id="profile-link" class="social-icon">
-        <i class="fab fa-github" aria-label="Github"></i>
+      <a class="social-media__link" href="https://github.com/Denyocheq" target="_blank" id="profile-link">
+        <i class="social-media__icon fab fa-github" aria-label="Github"></i>
       </a>
-      <a href="https://www.freecodecamp.org/Denyocheq" target="_blank" class="social-icon">
-        <i class="fab fa-free-code-camp" aria-label="freeCodeCamp"></i>
+      <a class="social-media__link" href="https://www.freecodecamp.org/Denyocheq" target="_blank">
+        <i class="social-media__icon fab fa-free-code-camp" aria-label="freeCodeCamp"></i>
       </a>
     </footer>
   </body>
