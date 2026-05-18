@@ -270,6 +270,9 @@
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
+}
+
+.contact-section__contact-form {
   margin-top: 0.5rem;
 }
 
