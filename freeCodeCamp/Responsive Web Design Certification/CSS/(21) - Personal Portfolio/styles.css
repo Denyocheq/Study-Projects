@@ -124,6 +124,10 @@
 
 .main {
   height: 100vh;
+
+  /* In modern browsers, view height will be calculated dynamically. */
+  height: 100dvh;
+
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
@@ -132,6 +136,10 @@
 
 .welcome-section {
   height: 100vh;
+
+  /* In modern browsers, view height will be calculated dynamically. */
+  height: 100dvh;
+
   scroll-snap-align: start;
   position: relative;
   display: flex;
@@ -171,6 +179,10 @@
 
 .project-section {
   height: 100vh;
+
+  /* In modern browsers, view height will be calculated dynamically. */
+  height: 100dvh;
+
   scroll-snap-align: start;
   position: relative;
   display: flex;
@@ -244,6 +256,10 @@
 
 .contact-section {
   height: 100vh;
+
+  /* In modern browsers, view height will be calculated dynamically. */
+  height: 100dvh;
+
   scroll-snap-align: start;
   position: relative;
   display: flex;
