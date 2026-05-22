@@ -9,49 +9,65 @@ ________________________________________________________________________________
 ```Markdown
 Study-Projects/
 │  
-├── 📁 freeCodeCamp/                                         # Basics of page layout and basic JavaScript
-│   └── 📁 Responsive Web Design Certification/               # Page layout (HTML + CSS)
-│       ├── 📁 HTML/
-│       │   ├── 📁 (01) - Recipe Page
-│       │   ├── 📁 (02) - Travel Agency Page
-│       │   ├── 📁 (03) - Christmas Vibes Page
-│       │   ├── 📁 (04) - Alternative rock Page
-│       │   ├── 📁 (05) - Astronomical Event Hub
-│       │   ├── 📁 (06) - Book Catalog Table
-│       │   ├── 📁 (07) - Coffee Delivery [Certification Project]
-│       │   ├── 📁 (08) - Checkout Page
-│       │   ├── 📁 (09) - Movie Review Page
-│       │   └── 📁 (10) - Multimedia Player
-│       │
-│       └── 📁 CSS/
-│           ├── 📁 (01) - Business Card
-│           ├── 📁 (02) - To-Do List
-│           ├── 📁 (03) - Blog Post Card
-│           ├── 📁 (04) - Event Flyer Page
-│           ├── 📁 (05) - Job Application Form
-│           ├── 📁 (06) - Colored Boxes
-│           ├── 📁 (07) - Contact Form
-│           ├── 📁 (08) - Feature Selection
-│           ├── 📁 (09) - Confidential Email
-│           ├── 📁 (10) - Pizza Delivery Pricing Plans
-│           ├── 📁 (11) - Mutant Ninja Turtles Cards [Certification Project]
-│           ├── 📁 (12) - The Hawkins Post
-│           ├── 📁 (13) - Tribute Page
-│           ├── 📁 (14) - House Painting
-│           ├── 📁 (15) - Book Inventory [Certification Project]
-│           ├── 📁 (16) - Technical Documentation Page [Certification Project]
-│           ├── 📁 (17) - Availability Table
-│           ├── 📁 (18) - Newspaper Layout
-│           ├── 📁 (19) - Product Landing Page [Certification Project]
-│           ├── 📁 (20) - Moon Orbit
-│           └── 📁 (21) - Personal Portfolio
+├── 📁 freeCodeCamp/                                          # Basics of page layout and basic JavaScript
+│   ├── 📁 Responsive Web Design Certification/               # Page layout (HTML + CSS)
+│   │   ├── 📁 HTML/
+│   │   │   ├── 📁 (01) - Recipe Page
+│   │   │   ├── 📁 (02) - Travel Agency Page
+│   │   │   ├── 📁 (03) - Christmas Vibes Page
+│   │   │   ├── 📁 (04) - Alternative rock Page
+│   │   │   ├── 📁 (05) - Astronomical Event Hub
+│   │   │   ├── 📁 (06) - Book Catalog Table
+│   │   │   ├── 📁 (07) - Coffee Delivery [Certification Project]
+│   │   │   ├── 📁 (08) - Checkout Page
+│   │   │   ├── 📁 (09) - Movie Review Page
+│   │   │   └── 📁 (10) - Multimedia Player
+│   │   │
+│   │   └── 📁 CSS/
+│   │       ├── 📁 (01) - Business Card
+│   │       ├── 📁 (02) - To-Do List
+│   │       ├── 📁 (03) - Blog Post Card
+│   │       ├── 📁 (04) - Event Flyer Page
+│   │       ├── 📁 (05) - Job Application Form
+│   │       ├── 📁 (06) - Colored Boxes
+│   │       ├── 📁 (07) - Contact Form
+│   │       ├── 📁 (08) - Feature Selection
+│   │       ├── 📁 (09) - Confidential Email
+│   │       ├── 📁 (10) - Pizza Delivery Pricing Plans
+│   │       ├── 📁 (11) - Mutant Ninja Turtles Cards [Certification Project]
+│   │       ├── 📁 (12) - The Hawkins Post
+│   │       ├── 📁 (13) - Tribute Page
+│   │       ├── 📁 (14) - House Painting
+│   │       ├── 📁 (15) - Book Inventory [Certification Project]
+│   │       ├── 📁 (16) - Technical Documentation Page [Certification Project]
+│   │       ├── 📁 (17) - Availability Table
+│   │       ├── 📁 (18) - Newspaper Layout
+│   │       ├── 📁 (19) - Product Landing Page [Certification Project]
+│   │       ├── 📁 (20) - Moon Orbit
+│   │       └── 📁 (21) - Personal Portfolio
+│   │
+│   └── 📁 JavaScript Certification/
+│       ├── 📁 (01) - Build a JavaScript Trivia Bot
+│       ├── 📁 (02) - Build a Sentence Maker
+│       ├── 📁 (03) - Debug Type Coercion Errors in a Buggy App
+│       └── 📁 (04) - Debug Increment and Decrement Operator Errors in a Buggy App
+│
+│
+│
+├── 📁 learn.javascript.ru/                                   # Advanced JavaScript
+│   ├── 📁 (01) - Привет, мир!
+│   ├── 📁 (02) - Переменные
+│   ├── 📁 (03) - Взаимодействие alert, prompt, confirm
+│   └── 📁 (04) - Базовые операторы, математика
+│
+│
 │
 ├── 📁 Pet Projects/
 │   ├── 📁 Business Card
 │   └── 📁 Konstruct
 │
 │  
-└── README.md                                                # You are reading this file
+└── README.md                                                 # You are reading this file
 ```
 
 ## 🚀 Open on GitHub pages
