@@ -50,7 +50,8 @@ Study-Projects/
 │       ├── 📁 (01) - Build a JavaScript Trivia Bot
 │       ├── 📁 (02) - Build a Sentence Maker
 │       ├── 📁 (03) - Debug Type Coercion Errors in a Buggy App
-│       └── 📁 (04) - Debug Increment and Decrement Operator Errors in a Buggy App
+│       ├── 📁 (04) - Debug Increment and Decrement Operator Errors in a Buggy App
+│       └── 📁 (05) - Build a Fortune Teller
 │
 │
 │
