@@ -51,7 +51,11 @@ Study-Projects/
 │       ├── 📁 (02) - Build a Sentence Maker
 │       ├── 📁 (03) - Debug Type Coercion Errors in a Buggy App
 │       ├── 📁 (04) - Debug Increment and Decrement Operator Errors in a Buggy App
-│       └── 📁 (05) - Build a Fortune Teller
+│       ├── 📁 (05) - Build a Fortune Teller
+│       ├── 📁 (06) - Build a Boolean Check Function
+│       ├── 📁 (07) - Build an Email Masker
+│       ├── 📁 (08) - Build a Celsius to Fahrenheit Converter
+│       └── 📁 (09) - Build a Card Counting Assistant
 │
 │
 │
