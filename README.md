@@ -55,7 +55,13 @@ Study-Projects/
 │       ├── 📁 (06) - Build a Boolean Check Function
 │       ├── 📁 (07) - Build an Email Masker
 │       ├── 📁 (08) - Build a Celsius to Fahrenheit Converter
-│       └── 📁 (09) - Build a Card Counting Assistant
+│       ├── 📁 (09) - Build a Card Counting Assistant
+│       ├── 📁 (10) - Build a Leap Year Calculator
+│       ├── 📁 (11) - Implement the Truncate a String Algorithm
+│       ├── 📁 (12) - Build a Confirm the Ending Tool
+│       ├── 📁 (13) - Build a Lunch Picker Program
+│       ├── 📁 (14) - Build a Golf Score Translator
+│       └── 📁 (15) - Build a Cargo Manifest Validator
 │
 │
 │
@@ -73,7 +79,8 @@ Study-Projects/
 │   ├── 📁 (11) - Стрелочные функции, основы
 │   ├── 📁 (12) - Объекты
 │   ├── 📁 (13) - Методы объекта, 'this'
-│   └── 📁 (14) - Конструктор, оператор 'new'
+│   ├── 📁 (14) - Конструктор, оператор 'new'
+│   └── 📁 (15) - Числа
 │
 │
 │
